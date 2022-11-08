@@ -16,6 +16,9 @@ export default function Formcontrasena() {
                     <Input  typeinput="mail" />
                 </div>
                 <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit">RECUPERAR</button>
+                <br/>
+                <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit" onClick={'http://localhost:3000/'}>Cancelar</button>
+                
             </form>
         </section>
     </main>
