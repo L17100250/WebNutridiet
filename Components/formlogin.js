@@ -6,6 +6,8 @@ export default function Formlogin() {
     const [correo, setCorreo] = useState ("")
     const [contraseña, setContraseña] = useState ("")
 
+    console.log();
+
     const email = (e) => setCorreo(e.target.value);
     const password = (e) => setContraseña(e.target.value)
 
@@ -16,7 +18,7 @@ export default function Formlogin() {
 
         if(correo === "" || contraseña === "")
         {
-            console.log("No puede dejar vacio los campos, favor de llenar los campos correctamnente con sus datos.");
+            console.log("No puede dejar vacio los campos, favor de llenar los campos correctamente con sus datos.");
         }
         else{
             console.log("Entro al fetch");
